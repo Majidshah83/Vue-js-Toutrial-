@@ -1,15 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeloHome data="Majid shah props" msg="second msg" />
+  <OnclickEvents/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeloHome from './components/HeloHome.vue'
+import OnclickEvents from './components/OnlickEvents.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
+HeloHome,
+OnclickEvents    
   }
 }
 </script>
