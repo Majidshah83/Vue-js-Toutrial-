@@ -1,20 +1,26 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/>
   <HeloHome data="Majid shah props" msg="second msg" />
-  <OnclickEvents/>
+  <OnclickEvents/> -->
+  <ForLoop/>
+  <!-- <Check/> -->
+
 
 </template>
 
 <script>
-import HeloHome from './components/HeloHome.vue'
-import OnclickEvents from './components/OnlickEvents.vue'
+// import HeloHome from './components/HeloHome.vue'
+// import OnclickEvents from './components/OnlickEvents.vue'
+import ForLoop from './components/ForLoop.vue'
+// import Check from './components/Check.vue'
 export default {
   name: 'App',
   components: {
-
-HeloHome,
-OnclickEvents    
+  ForLoop,
+  // Check
+// HeloHome,
+//  OnclickEvents    
   }
 }
 </script>
